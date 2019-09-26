@@ -1,0 +1,265 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{hyperref}
+\usepackage[left=0.75in,top=0.4in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\name{Joy Tolia} % Your name
+\address{Website: \href{www.jtolia.com}{www.jtolia.com} \\ Email: \href{mailto:joytolia@hotmail.com}{joytolia@hotmail.com} \\ Phone: (+44)~$\cdot$~7877~$\cdot$~697~$\cdot$~113} % Your phone number and email
+%\address{135 Shrewsbury Road \\ London \\ N11 2LN} % Your address
+
+
+\begin{document}
+
+\iffalse
+%----------------------------------------------------------------------------------------
+%	PERSONAL STATEMENT SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Personal Statement}
+	
+	My current focus in quantitative FX strategies and trading has helped me gain market experience which I have found important in idea generation for research. The strategies I currently run are non carry or trend-following with a holding period ranging between 2 to 21 days which utilise cross asset
+	and alternative data. Recently, I have also started an intraday strategy trading hourly. When I was at Systematica, I worked on a cross asset risk premia strategy taking our core carry and trend following strategy and making it delta neutral, working from initial research all the way to implementation. I also worked on alternative delta neutral strategies focusing on FX and equity indices with the goal of expanding to fixed income and commodities.I enjoy doing non-financial research in my own time, I have recently been working on creating interactive visualisation of UK crime data using Python.
+	
+	My background in studying mathematics at the University of Warwick has equipped me with the necessary tools to problem solve and understand complex ideas. This, combined with extra curricular activities have developed my ability to communicate these ideas clearly. I enjoy leading groups which can be demonstrated through taking supervisions at University for first year students who all passed, informal help sessions and revision lectures. I continued this with excel workshops whilst at Systematica. At NBIM, I have travelled to train and develop our FX trading team in New York and I am currently leading a team with the aim of migrating our applications to the cloud.
+	
+	Recently I have been working on an internal paper breaking down the inverse of a covariance matrix into meaningful components and deriving their practical impact in calculations such as Markowitz optimisation and linear regression. Part of my current role is to systematise FX execution for the fund and for this, I have written an internal paper on optimisation between market risk and transaction	costs. I present to the management and the CIO regularly to explain the ideas concisely and give updates on implementation.
+	
+	I am responsible for our code base in the team and have built the backtesting engine from the ground up both in Python and Matlab where I have componentised different parts of the process. This gives flexibility in carrying out investigative research because it allows the ability to easily test multiple hypotheses, analyse different datasets and perform optimisations. It can also be used to put models into production with a small addition to the code. We share our code with other teams and abstract
+	out much of the logic, so it can be used across asset classes.
+\end{rSection}
+\fi
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Skills}
+	Computing: Python (Advanced), Matlab (Advanced), VBA (Advanced), Microsoft Excel (Advanced), LaTeX (Advanced), Unix (Intermediate), AWS (Intermediate), SQL (Intermediate), q/KDB+ (Basic), C++ (Basic)
+\end{rSection}
+\begin{rSection}{Work Experience}
+\begin{rSubsection}{Norges Bank Investment Management}{October 2017 - Present}{FX Quantitative Trader}{}
+	\item Researching, generating and maintaining systematic trading strategies for spot FX using Python and Matlab. Focusing on strategies with a holding period between hourly and monthly
+	\item Created a web based application in AWS using Python, MSSQL, MongoDB with high availability for transaction cost analysis
+	\item Creating and maintaining company specific Python package to give Python users an API to connect to databases, run timeseries calculations, utilise automated email facilities, etc.
+	\item Writing internal papers on topics such as the inverse of a covariance matrix and deriving its practical impact in Markowitz optimisation and linear regression
+	\item Supervising an MSc university student on a project about analysis of price tick data
+	\item Creating long term discretionary positions using portfolio optimisation to reduce exposure to certain risk factors
+	\item Working with cross asset data such as commodities, equity indices and fixed income to help produce diverse signals to trade FX
+	\item Trading 20 free floating currencies in spot FX for execution purposes for the whole fund
+	\item Systematising the FX execution of the fund by building intra-day models balancing between alpha, risk and transaction costs
+	\item Built the code for backtesting infrastructure over all asset classes, from the ground up. The run time is optimised using object orientated code, parallelisation and dependency networks. Produces structured summaries to compare numerous parameters efficiently
+\end{rSubsection}
+\begin{rSubsection}{Systematica Investments}{September 2016 - September 2017}{Quantitative Researcher}{}
+	\item Researched and generated systematic trading strategies for futures and forwards using Matlab. Working with asset classes such as FX, commodities, equity indices and fixed income
+	\item Procured macro data from a variety of sources to explore a diverse range of trading signals
+	\item Built, implemented and maintained a market neutral portfolio using multiple trading signals for a collection of assets
+	\item Maintained and expanded the code base to ensure the current trading systems are functional and efficient
+	\item Presented relevant academic research and collaborating with colleagues on current models
+	\item Conducted teaching sessions on Excel and VBA for colleagues. Contributing to the graduate recruitment by presenting at university events
+\end{rSubsection}
+\begin{rSubsection}{Royal Bank of Scotland}{April 2016 - August 2016}{Rates Quantitative Analyst}{}
+	\item Developed and maintained the C++ library for the Balance Guaranteed Swaps trading team
+	\item Lead the development for an innovative and flexible trading platform to obtain fixed interest rates for many types of loans
+\end{rSubsection}
+
+\begin{rSubsection}{Royal Bank of Scotland}{September 2015 - March 2016}{Structuring Analyst}{}
+\item Worked in the corporate risk advisory team and conducted bespoke analysis to optimize corporate foreign exchange and interest rate risk exposures
+\item Developed and backtested signalling models for foreign exchange risk exposure hedging within Matlab
+\item Built an optimization tool within Matlab for client swap portfolios to optimize their CVA, FVA and capital charges 
+\item Created a correlation tool using VBA and Matlab with multiple parameters to allow full flexibility for the user which analyses historical correlation over time
+\item Passed CISI level 3 certificates which include Regulations, Securities and Derivatives for Customer Controlled Function or Certified Person
+
+\end{rSubsection}
+
+\begin{rSubsection}{Warwick University}{June 2015 - August 2015}{Undergraduate Researcher}{}
+\item Researching stochastic integral estimators and adapting ideas from multi-level Monte Carlo methods
+\item Analysing academic papers with the aim of implementing both mathematical and simulation techniques 
+\item Communicating technical concepts effectively, both when discussing ideas with colleagues and documenting progress. Working independently, organising a schedule and meeting self set targets
+	
+\end{rSubsection}
+
+\begin{rSubsection}{Warwick University}{September 2014 - June 2015}{Mathematics Supervisor}{}
+\item Provided academic support by acting as the main point of contact for a group of undergraduate students
+\item Led weekly discussions, taught challenging content from key modules and guided students to develop strong mathematical reasoning
+\item Marked students' assignments, delivered prompt feedback and gave constructive criticism
+
+\end{rSubsection}
+
+%------------------------------------------------
+%(London, UK)
+\begin{rSubsection}{Royal Bank of Scotland}{July 2014 - September 2014}{Sales \& Trading Summer Intern}{}
+\item Rotated between the Rates Research and Custom Indices Structuring divisions
+\item Researched European bank bailouts to help predict future government borrowing
+\item Used swap rates of different maturities to forecast the short term bank policy rate
+\item Gained knowledge about Volatility Control products and backtested different portfolios using Excel
+\item Improved this analysis by building a Matlab script which was capable of data extraction and backtesting
+\item Delivered two presentations to the Head of Research and my line manager detailing my projects 
+\end{rSubsection}
+
+\iffalse
+\begin{rSubsection}{Tao Applications}{June 2013 - Current}{Android Application Developer}{}
+\item Worked with a partner on developing applications such as a poker and speedometer
+\item Widened my understanding about programming 
+\end{rSubsection}
+
+\fi
+
+%-------------------------------------------------
+\iffalse
+%(Birmingham, UK)
+\begin{rSubsection}{British Army}{October 2012 - February 2013}{Officer Cadet}{}
+\item Trained to become an officer in the army through field craft and battle drills
+\item Enhanced my leadership and teamwork skills through missions and tasks
+\end{rSubsection}
+\fi
+%------------------------------------------------
+\iffalse
+%(London, UK)
+\begin{rSubsection}{West Lea School, UK}{September 2009 - February 2010}{Teaching Assistant}{}
+\item Developed communication skills through explaining new concepts to the students
+\item Increased my confidence by presenting to a classroom sized audience
+\end{rSubsection}
+
+
+%------------------------------------------------
+%(London, UK)
+\begin{rSubsection}{Somar \& Co Ltd}{June 2009}{Office Administrator/Accounts}{}
+\item Gained experience working in the financial sector and learnt about financial reporting
+\item Assisted in preparation of balance sheets for different companies using Excel
+\end{rSubsection}
+\fi
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+	\begin{rSubsection}{Certificate in Quantitative Finance}{January 2016 - August 2016}{CQF}{}
+		\item Overall Mark: {\bf 98\%}, Exam Mark: {\bf 97\%}
+		\item Received {\bf Wilmott Award for Excellence} for best mark in final exam.
+		\item Part time financial engineering program that covers a range of topics such as stochastic analysis, portfolio optimization, option pricing, Monte-Carlo methods, finite differences method
+		\item Learning about modelling within different asset classes such as equities, currencies, fixed income, commodities and credit
+		\item Comprises of lectures, workshops, assessed assignments and one final exam
+	\end{rSubsection}
+	\begin{rSubsection}{University of Warwick}{October 2011 - June 2015}{First Class MMath in Mathematics}{}
+		\item First Year: {\bf 78\%},  % 78.4\%
+		Second Year: {\bf 84\%},  % 83.7\%
+		Third Year: {\bf 81\%}, % 81.34\%
+		Fourth Year: {\bf 90\%} % 89.87\%
+		
+		\item  Relevant modules: Stochastic Analysis, Brownian Motion, Uncertainty Quantification, Data Assimilation, Matrix Analysis \& Algorithms and High Performance Computing
+		\item Fourth year project entitled Asynchronous Parallel Numerical Optimization. Utilised parallel computing in Matlab. Designed and implemented an algorithm for function optimization based on genetic algorithms
+		\item Warwick Mathematics Society - contributed by composing revision guides for over 800 students, running LaTeX workshops and revision lectures for over 300 students. Warwick Poker Society - developed a new website and taught members about analytical strategies
+	\end{rSubsection}
+	\iffalse
+	\begin{rSubsection}{The Latymer School}{ September 2004 - June 2011}{Secondary School}{}
+		\item A-Levels: Mathematics ({\bf A*}), Further Mathematics ({\bf A*}), Physics ({\bf A}) 
+		\item AS-Levels: Economics ({\bf A}), Additional Further Mathematics ({\bf A}) 
+		\item GCSEs: 4 {\bf A*s}, 4 {\bf As} and 1 {\bf B}
+	\end{rSubsection}
+	\fi
+\end{rSection}
+
+
+\iffalse
+%----------------------------------------------------------------------------------------
+%	Positions of Responsibility
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Positions of Responsibility}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Student-Staff Liaison Committee}{October 2011 - June 2015}{Fourth Year Representative}{}
+\item Communicated with students from the mathematics department regarding any issues or concerns
+\item Presented these issues or concerns to the committee to discuss solutions and provide feedback
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Warwick Mathematics Society}{February 2014 - February 2015}{Vice President}{}
+\item Promoted society events through weekly emails as well as organising events
+\item Prepared and presented a revision lecture to an audience of over 300 students, with positive feedback
+\item Composed revision guides to be printed and made available to over 800 students
+\item Coordinated a LaTeX workshop to equip students with necessary skills for academic writing
+
+\end{rSubsection}
+
+
+%------------------------------------------------
+\begin{rSubsection}{Warwick Poker Society}{June 2013 - June 2014}{Communications Officer}{}
+\item Built a new website to help publicise information about the society and upcoming events
+\item Taught members about possible mathematical and analytical strategies to improve their game play 
+%\item Renovating the website to accommodate the needs of future users who might not have HTML experience
+\end{rSubsection}
+
+\iffalse
+%------------------------------------------------
+
+\begin{rSubsection}{Warwick Maths Society}{February 2012 - February 2013}{Social Secretary}{}
+\item Organised social events for the members of the society and the Maths department
+\item Advised students struggling with their work and assisted in making of revision material
+\end{rSubsection}
+\fi
+
+\end{rSection}
+%--------------------------------------------------------------------------------
+\fi
+
+\iffalse
+\begin{rSection}{Achievements}
+
+\begin{sSubsection}{}{}{}{}
+\item Received the Wilmott Award for Excellence 2016 (CQF)
+\item Won the Willhock Prize for Mechanics 2011 (The Latymer School)
+%\item Received a Silver award in the UKMT Senior Mathematical Challenge 2010
+\item Placed 4th in the Regional Finals of the UKMT FMSP Team Maths Challenge 2010
+\item Completed the National Cipher Challenge 2010
+\item Chosen for the inter-cadet target shooting competition 2009 (Bisley) and came 116th in the country
+\end{sSubsection}
+
+\end{rSection}
+\fi
+
+\iffalse
+%-------------------------------------------------------------------------------------
+\begin{rSection}{Skills and Interests}
+Computing: Matlab (Advanced), VBA (Advanced), Microsoft Excel (Advanced), LaTeX (Advanced),  C++ (Intermediate), Bloomberg Terminal (Intermediate), Java (Basic),  Python (Basic), R (Basic)
+\item Interests: Poker, Basketball, Rock Climbing, Cycling, Target Shooting, Developing Android applications
+\item Languages: English and Gujarati (Bilingual), German (Basic), Hindi (Basic)
+\item {\bf For further details on my projects and experience, visit: \href{www.jtolia.com}{www.jtolia.com}}
+\end{rSection}
+\fi
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

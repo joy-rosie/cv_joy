@@ -24,8 +24,14 @@
 \usepackage[left=0.75in,top=0.4in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 
 \name{Joy Tolia} % Your name
-\address{Website: \href{www.jtolia.com}{www.jtolia.com} \\ Email: \href{mailto:joytolia@hotmail.com}{joytolia@hotmail.com} \\ Phone: (+44)~$\cdot$~7877~$\cdot$~697~$\cdot$~113} % Your phone number and email
-%\address{135 Shrewsbury Road \\ London \\ N11 2LN} % Your address
+\address{
+	Website: \href{www.jtolia.com}{www.jtolia.com} \\
+	Github: \href{https://github.com/joy-rosie}{https://github.com/joy-rosie}
+}
+\address{
+	Email: \href{mailto:joytolia@hotmail.com}{joytolia@hotmail.com} \\
+	Phone: (+44)~$\cdot$~7877~$\cdot$~697~$\cdot$~113
+}
 
 
 \begin{document}
@@ -52,21 +58,27 @@
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Skills}
-	Computing: Python (Advanced), Matlab (Advanced), VBA (Advanced), Microsoft Excel (Advanced), LaTeX (Advanced), Unix (Intermediate), AWS (Intermediate), SQL (Intermediate), Git (Intermediate), q/KDB+ (Intermediate), C++ (Intermediate), C\# (Intermediate)
+	Computing: Python (Advanced), q/KDB+ (Advanced), Matlab (Advanced), VBA (Advanced), Microsoft Excel (Advanced), LaTeX (Advanced), Unix (Intermediate), AWS (Intermediate), SQL (Intermediate), Git (Intermediate), C++ (Intermediate)
 \end{rSection}
 \begin{rSection}{Work Experience}
-\begin{rSubsection}{\href{https://www.nbim.no/}{Norges Bank Investment Management}}{October 2017 - Present}{FX Trader}{}	
+\begin{rSubsection}{\href{https://www.mizuhogroup.com/bank/}{Mizuho}}{June 2020 - Current}{Quantitative Trader}{}
+	\item Automated FX market making
+	\item Quantitative analysis, parameter optimisation through Python and q/KDB+
+	\item Developing and managing market making algorithms
+	\item Running book
+\end{rSubsection}
+\begin{rSubsection}{\href{https://www.nbim.no/}{Norges Bank Investment Management}}{October 2017 - June 2020}{Quantitative Trader}{}
+	\item Researching, developing and running systematic standalone trading strategies for spot FX using Python and Matlab. Focusing on strategies with a holding period between hourly and monthly
+	\item Trading 20 free floating currencies in spot FX for execution purposes for the whole fund
+	\item Systematising the FX execution of the fund by building intra-day models balancing risk and transaction costs. Analysing internal order alpha profiles to help with trading decisions
+	\item Experience with four different streams of strategies; standalone systematic, standalone macro discretionary, systematic execution and manual execution
+	\item Help manage macro discretionary positions using portfolio analysis and optimisation to reduce exposure to a range of risk factors
 	\item Built a code base for backtesting hypotheses. This can be run over multiple asset classes and the run time is optimised using object orientated code, parallelisation and dependency networks. The output includes structured summaries to compare numerous parameters efficiently
 	\item Writing internal papers on topics such as the inverse of a covariance matrix and deriving its practical impact in Markowitz portfolio optimisation and linear regression
 	\item Supervised an MSc university student on their thesis manipulating and visualising large (tick) data sets
 	\item Working with alternative data such as events, commodities, equity indices and fixed income as well as sourcing external data from brokers and government institutions to help produce diverse signals
-	\item Experience with four different streams of strategies; standalone systematic, standalone macro discretionary, systematic execution and manual execution
-	\item Researching, developing and running systematic standalone trading strategies for spot FX using Python and Matlab. Focusing on strategies with a holding period between hourly and monthly
-	\item Help manage macro discretionary positions using portfolio analysis and optimisation to reduce exposure to a range of risk factors
-	\item Systematising the FX execution of the fund by building intra-day models balancing risk and transaction costs. Analysing internal order alpha profiles to help with trading decisions
-	\item Trading 20 free floating currencies in spot FX for execution purposes for the whole fund
 	\item Developed and continue to maintain a company specific Python library hosted on an internal Pypi server to give Python users an API to connect to databases, run statistical calculations, utilise automated email facilities, send orders, etc.
-	\item Created a web based application in the cloud (AWS) using Python, MSSQL, MongoDB for transaction cost analysis utilising large data sets with interactive visualisation to help improve our trading decisions
+	\item Created a web based application in the cloud (AWS) using Python, MSSQL, MongoDB, q/KDB+ for transaction cost analysis utilising large data sets with interactive visualisation to help improve our trading decisions
 \end{rSubsection}
 \begin{rSubsection}{\href{https://www.systematica.com/}{Systematica Investments}}{September 2016 - September 2017}{Quantitative Researcher}{}
 	\item Researched and generated systematic trading strategies for futures and forwards using Matlab. Working with asset classes such as FX, commodities, equity indices and fixed income
@@ -76,20 +88,18 @@
 	\item Presented relevant academic research and collaborating with colleagues on current models
 	\item Conducted teaching sessions on Excel and VBA for colleagues. Contributing to the graduate recruitment by presenting at university events
 \end{rSubsection}
-\begin{rSubsection}{\href{https://www.natwestmarkets.com/}{Royal Bank of Scotland}}{April 2016 - August 2016}{Rates Quantitative Analyst}{}
+\begin{rSubsection}{\href{https://www.natwestmarkets.com/}{Royal Bank of Scotland}}{September 2015 - August 2016}{Rates Quantitative Analyst}{}
 	\item Developed and maintained the C++ library for the Balance Guaranteed Swaps trading team
 	\item Lead the development for an innovative and flexible trading platform to obtain fixed interest rates for many types of loans
-\end{rSubsection}
-\newpage
-\begin{rSubsection}{\href{https://www.natwestmarkets.com/}{Royal Bank of Scotland}}{September 2015 - March 2016}{Structuring Analyst}{}
-\item Worked in the corporate risk advisory team and conducted bespoke analysis to optimize corporate foreign exchange and interest rate risk exposures
-\item Developed and backtested signalling models for foreign exchange risk exposure hedging within Matlab
-\item Built an optimization tool within Matlab for client swap portfolios to optimize their CVA, FVA and capital charges 
-\item Created a correlation tool using VBA and Matlab with multiple parameters to allow full flexibility for the user which analyses historical correlation over time
-\item Passed CISI level 3 certificates which include Regulations, Securities and Derivatives for Customer Controlled Function or Certified Person
+	\item Worked in the corporate risk advisory team and conducted bespoke analysis to optimize corporate foreign exchange and interest rate risk exposures
+	\item Developed and backtested signalling models for foreign exchange risk exposure hedging within Matlab
+	\item Built an optimization tool within Matlab for client swap portfolios to optimize their CVA, FVA and capital charges 
+	\item Created a correlation tool using VBA and Matlab with multiple parameters to allow full flexibility for the user which analyses historical correlation over time
+	%\item Passed CISI level 3 certificates which include Regulations, Securities and Derivatives for Customer Controlled Function or Certified Person
 
 \end{rSubsection}
 
+\iffalse
 \begin{rSubsection}{\href{https://warwick.ac.uk/fac/sci/maths/}{University of Warwick}}{June 2015 - August 2015}{Undergraduate Researcher}{}
 \item Researching stochastic integral estimators and adapting ideas from multi-level Monte Carlo methods
 \item Analysing academic papers with the aim of implementing both mathematical and simulation techniques 
@@ -114,6 +124,7 @@
 \item Improved this analysis by building a Matlab script which was capable of data extraction and backtesting
 %\item Delivered two presentations to the Head of Research and my line manager detailing my projects 
 \end{rSubsection}
+\fi
 
 \iffalse
 \begin{rSubsection}{Tao Applications}{June 2013 - Current}{Android Application Developer}{}
